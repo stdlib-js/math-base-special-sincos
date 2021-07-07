@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-sincos",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simultaneously compute the sine and cosine of a number.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
