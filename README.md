@@ -24,41 +24,33 @@ limitations under the License.
 
 > Simultaneously compute the [sine][@stdlib/math/base/special/sin] and [cosine][@stdlib/math/base/special/cos] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-sincos
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sincos = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@umd/browser.js' )
+var sincos = require( '@stdlib/math-base-special-sincos' );
 ```
 
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var sincos = require( 'path/to/vendor/umd/math-base-special-sincos/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sincos;
-})();
-</script>
-```
-
-#### sincos( \[out,] x )
+#### sincos( x )
 
 Simultaneously computes the [sine][@stdlib/math/base/special/sin] and [cosine][@stdlib/math/base/special/cos] of a `number` (in radians).
 
@@ -73,14 +65,16 @@ v = sincos( -3.141592653589793/6.0 );
 // returns [ ~-0.5, ~0.866 ]
 ```
 
-By default, the function returns the sine and cosine as a two-element `array`. To avoid extra memory allocation, the function supports providing an output (destination) object.
+#### sincos.assign( x, out, stride, offset )
+
+Simultaneously computes the [sine][@stdlib/math/base/special/sin] and [cosine][@stdlib/math/base/special/cos] of a `number` (in radians) and assigns results to a provided output array.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
 
 var out = new Float64Array( 2 );
 
-var v = sincos( out, 0.0 );
+var v = sincos.assign( 0.0, out, 1, 0 );
 // returns <Float64Array>[ ~0.0, ~1.0 ]
 
 var bool = ( v === out );
@@ -97,15 +91,10 @@ var bool = ( v === out );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var TWO_PI = require( '@stdlib/constants-float64-two-pi' );
+var sincos = require( '@stdlib/math-base-special-sincos' );
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
@@ -113,11 +102,6 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( sincos( x[ i ] ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -204,11 +188,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/umd
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
-[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin/tree/umd
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin
 
-[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi/tree/umd
+[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi
 
 <!-- </related-links> -->
 
