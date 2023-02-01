@@ -24,20 +24,30 @@ limitations under the License.
 
 > Simultaneously compute the [sine][@stdlib/math/base/special/sin] and [cosine][@stdlib/math/base/special/cos] of a number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-sincos
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
+var sincos = require( '@stdlib/math-base-special-sincos' );
 ```
 
 #### sincos( x )
@@ -60,7 +70,7 @@ v = sincos( -3.141592653589793/6.0 );
 Simultaneously computes the [sine][@stdlib/math/base/special/sin] and [cosine][@stdlib/math/base/special/cos] of a `number` (in radians) and assigns results to a provided output array.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
 
 var out = new Float64Array( 2 );
 
@@ -82,9 +92,9 @@ var bool = ( v === out );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@deno/mod.js';
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
+var linspace = require( '@stdlib/array-base-linspace' );
+var TWO_PI = require( '@stdlib/constants-float64-two-pi' );
+var sincos = require( '@stdlib/math-base-special-sincos' );
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
@@ -123,7 +133,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -135,7 +145,7 @@ For more information on the project, filing bug reports and feature requests, an
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -178,11 +188,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/deno
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
-[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin/tree/deno
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin
 
-[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi/tree/deno
+[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi
 
 <!-- </related-links> -->
 
