@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@esm/index.mjs';
+import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.0-esm/index.mjs';
 ```
 
 #### sincos( x )
@@ -100,7 +100,7 @@ var bool = ( v === out );
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@esm/index.mjs';
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@esm/index.mjs';
+import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.0-esm/index.mjs';
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
