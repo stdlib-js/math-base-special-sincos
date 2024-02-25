@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
+import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.1-deno/mod.js';
 ```
 
 #### sincos( x )
@@ -95,7 +95,7 @@ var bool = ( v === out );
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@deno/mod.js';
-import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@deno/mod.js';
+import sincos from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincos@v0.2.1-deno/mod.js';
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
