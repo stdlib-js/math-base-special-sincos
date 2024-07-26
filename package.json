@@ -40,9 +40,14 @@
     "@stdlib/constants-float64-high-word-abs-mask": "^0.2.1",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.1",
     "@stdlib/math-base-special-rempio2": "^0.2.1",
+    "@stdlib/napi-argv": "^0.2.1",
+    "@stdlib/napi-argv-double": "^0.2.1",
+    "@stdlib/napi-argv-float64array": "^0.2.1",
+    "@stdlib/napi-export": "^0.2.1",
     "@stdlib/number-float64-base-get-high-word": "^0.2.1",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-linspace": "^0.2.1",
@@ -57,6 +62,7 @@
     "@stdlib/math-base-special-cos": "^0.2.1",
     "@stdlib/math-base-special-sin": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/utils-try-require": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
