@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-28)
+## 0.3.0 (2024-07-28)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`55ec8ed`](https://github.com/stdlib-js/stdlib/commit/55ec8edfeb7000bca7478af116e794f20560e922) - **docs:** remove comment _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`3264c24`](https://github.com/stdlib-js/stdlib/commit/3264c24815dcbd08eeb4afbf3909a3223bdaf2c1) - **chore:** update package meta data [(#2686)](https://github.com/stdlib-js/stdlib/pull/2686) _(by stdlib-bot, Athan Reines)_
 -   [`26e46d5`](https://github.com/stdlib-js/stdlib/commit/26e46d57474904e02d69b98d8e06052333522257) - **docs:** fix missing `@private` tag [(#2672)](https://github.com/stdlib-js/stdlib/pull/2672) _(by Gunj Joshi)_
 -   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(#2646)](https://github.com/stdlib-js/stdlib/pull/2646) _(by Gunj Joshi)_
@@ -38,8 +40,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
