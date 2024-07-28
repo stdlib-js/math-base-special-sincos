@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-27)
+## Unreleased (2024-07-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3264c24`](https://github.com/stdlib-js/stdlib/commit/3264c24815dcbd08eeb4afbf3909a3223bdaf2c1) - **chore:** update package meta data [(#2686)](https://github.com/stdlib-js/stdlib/pull/2686) _(by stdlib-bot, Athan Reines)_
 -   [`26e46d5`](https://github.com/stdlib-js/stdlib/commit/26e46d57474904e02d69b98d8e06052333522257) - **docs:** fix missing `@private` tag [(#2672)](https://github.com/stdlib-js/stdlib/pull/2672) _(by Gunj Joshi)_
 -   [`2c377eb`](https://github.com/stdlib-js/stdlib/commit/2c377ebcdbfa36606bbe69e25c309e12a7965a24) - **feat:** add C implementation for `math/base/special/sincos` [(#2646)](https://github.com/stdlib-js/stdlib/pull/2646) _(by Gunj Joshi)_
 -   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
@@ -37,8 +38,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
 
