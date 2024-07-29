@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-07-29)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f00c6b6`](https://github.com/stdlib-js/stdlib/commit/f00c6b63931baf0e14f1b6adeeacc2a1c3e353df) - **refactor:** move `return` statement [(#2702)](https://github.com/stdlib-js/stdlib/pull/2702) _(by Gunj Joshi)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
