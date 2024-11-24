@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-24)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`ac4992b`](https://github.com/stdlib-js/stdlib/commit/ac4992b3eeccbfcceea795f86cf669b2481d8250) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`f00c6b6`](https://github.com/stdlib-js/stdlib/commit/f00c6b63931baf0e14f1b6adeeacc2a1c3e353df) - **refactor:** move `return` statement [(#2702)](https://github.com/stdlib-js/stdlib/pull/2702) _(by Gunj Joshi)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Philipp Burckhardt
 
 </section>
 
