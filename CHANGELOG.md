@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e196811`](https://github.com/stdlib-js/stdlib/commit/e196811330529364e4bf889dc9df2f74f3bf5cb9) - **bench:** update random value generation [(#5987)](https://github.com/stdlib-js/stdlib/pull/5987) _(by Karan Anand)_
 -   [`fccc0b2`](https://github.com/stdlib-js/stdlib/commit/fccc0b294aa5be12f8e08aa2b7085c2a978de30c) - **chore:** update `runner.jl` to follow current project conventions [(#5988)](https://github.com/stdlib-js/stdlib/pull/5988) _(by Karan Anand)_
 -   [`6fa8a1b`](https://github.com/stdlib-js/stdlib/commit/6fa8a1bb1c4963e417439f8730a5799a8c013d86) - **chore:** address commit comments [(#5875)](https://github.com/stdlib-js/stdlib/pull/5875) _(by Karan Anand)_
 -   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
